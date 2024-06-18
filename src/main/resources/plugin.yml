@@ -1,0 +1,11 @@
+name: PlayerLimitBypass
+description: A plugin to let players bypass the player limit.
+prefix: PLB
+version: '${project.version}'
+main: eu.filtastisch.playerlimitbypass.PlayerLimitBypass
+author: filtastisch
+website: "https://filtastisch.eu"
+permissions:
+  playerlimit.bypass:
+    description: Allows the player to bypass the player limit, configured in "server.properties"
+    default: false
